@@ -1,0 +1,42 @@
+.acoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .botao {
+    margin: 5px;
+    margin-top: 40px;
+    width: 200px;
+  }
+  
+  .login-section form {
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .login-section form label {
+    color: #ca4b24;
+    font-weight: bold;
+    margin: 0 0 1rem;
+    font-size: 22px;
+  }
+  
+  .login-section form .input {
+    border: none;
+    height: 40px;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 0.5rem 0 2rem;
+  }
+  
+  .login-section form .textarea {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 0.5rem 0 2rem;
+  }
