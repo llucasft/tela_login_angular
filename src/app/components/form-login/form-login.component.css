@@ -1,7 +1,9 @@
 .container {
-  width: 80%;
+  width: 100vh;
   height: 80vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
@@ -25,13 +27,17 @@
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  padding: 3rem;
+  padding: 5rem;
 }
 
 .form-header {
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
+}
+
+.form-header h1 {
+  margin-right: 10%;
 }
 
 .login-button {
