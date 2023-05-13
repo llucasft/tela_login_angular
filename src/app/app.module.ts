@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormLoginComponent } from './components/form-login/form-login.component';
 import { MainComponent } from './components/main/main.component';
 import { FormRegisterComponent } from './components/form-register/form-register.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import { FormRegisterComponent } from './components/form-register/form-register.
     HeaderComponent,
     FormLoginComponent,
     MainComponent,
-    FormRegisterComponent
+    FormRegisterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
